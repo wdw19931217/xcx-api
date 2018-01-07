@@ -6,7 +6,7 @@
  * Time: 23:38
  */
 
-namespace app\api\controller\v1;
+namespace app\api\controller\v2;
 
 
 use app\api\validate\IDMustBePositiveInt;
@@ -24,11 +24,6 @@ class Banner
      */
     public function getBanner($id)
     {
-        (new IDMustBePositiveInt())->goCheck();
-        $banner = BannerModel::getBannerByID($id);
-        if (! $banner) {
-            throw new BannerMissException();
-        }
-        return json($banner);
+        return 'this is v2 version';
     }
 }

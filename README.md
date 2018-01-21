@@ -1,4 +1,4 @@
-ThinkPHP 5.0
+ThinkPHP 5.0 小程序后端API（个人练习项目）
 ===============
 
 [![Total Downloads](https://poser.pugx.org/topthink/think/downloads)](https://packagist.org/packages/topthink/think)
